@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>emplist</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/emplist.css}"/>
+</head>
+<body>
+<div id="wrap">
+    <div id="top_content">
+        <div id="header">
+            <div id="rightheader">
+                <p>
+                    2009/11/20
+                    <br/>
+                    <a th:href="@{/user/logout}">安全退出</a>
+                </p>
+            </div>
+            <div id="topheader">
+                <h1 id="title">
+                    <a th:href="@{/shoes/lists}">商品管理</a>
+                </h1>
+            </div>
+            <div id="navigation">
+            </div>
+        </div>
+        <div id="content">
+            <p id="whereami">
+            </p>
+            <h1>
+                ようこそ<span th:if="${session.user!=null}" th:text="${session.user.realname}"></span>!
+                <span th:if="${session.user==null}">ゲスト</span>
+            </h1>
+            <div style="margin-bottom:10px; text-align:right;">
+                <div style="height: 20px;">
+                    <span id="msg" style="color: red;font-size: 14px;line-height: 20px;"></span>
+                </div>    
+                <form th:action="@{/shoes/search}" method="post" onsubmit="return checkDate()">
+                商品名<input type="text" name="searchName" style="width:60px">
+                価格<input type="text" name="lowPrice" style="width:60px" pattern="\d*" title="金額は数字だけ組合わせです">~
+                        <input type="text" name="topPrice" style="width:60px" pattern="\d*" title="金額は数字だけ組合わせです">
+                サイズ<input type="text" id="date_begin" name="dateBegin" style="width:50px"   pattern="\d+(\.\d{1,2})?" title="正しいサイズを入力してください"/>~
+                          <input type="text" id="date_end" name="dateEnd" style="width:50px"    pattern="\d+(\.\d{1,2})?" title="正しいサイズを入力してください"/>
+                <input type="submit" class="button" value="検索">
+                </form>
+            </div>
+            <table class="table">
+                <tr class="table_header">
+                    <td>
+                        ID
+                    </td>
+                    <td>
+                        商品名:
+                    </td>
+                    <td>
+                        画像:
+                    </td>
+                    <td>
+                       価格:
+                    </td>
+                    <td>
+                        サイズ:
+                    </td>
+                    <td>
+                        操作
+                    </td>
+                </tr>
+                <tr th:each="shoes,state:${shoesList}"  th:class="${state.odd?'row1':'row2'}">
+                    <td>
+                        <span th:text="${shoes.id}"/>
+                    </td>
+                    <td>
+                        <span th:text="${shoes.name}"/>
+                    </td>
+                    <td>
+                        <img th:src="@{/}+${shoes.imageUrl}" style="height: 40px;" onclick="openModal(this.src)">
+                    </td>
+                    <td>
+                        <span th:text="${shoes.price}"/>
+                    </td>
+                    <td>
+                        <span th:text="${shoes.size}"/>
+                    </td>
+                    <td>
+                        <a href="javascript:;" th:onclick="'delEmp('+${shoes.id}+')'" class="button">削除</a>&nbsp;
+                        <a th:href="@{/shoes/detail(id=${shoes.id})}" class="button">更新</a>
+                    </td>
+                </tr>
+            </table>
+            <p>
+                <input type="button" class="button" value="商品を追加する" onclick="addEmp()"/>
+            </p>
+            <script>
+                function addEmp(){
+                    location.href='[[@{/addEmp}]]'
+                }
+                
+                function delEmp(id){
+                    console.log(id)
+                    if(window.confirm("この商品の情報を削除していいですか？")){
+                        //console.log('true')
+                        location.href="[[@{/shoes/delete?id=}]]"+id
+                    }
+                }
+
+                // JavaScript for the image modal
+                function openModal(src) {
+                    var modal = document.getElementById("myModal");
+                    var modalImg = document.getElementById("img01");
+                    var close=document.querySelector(".close")
+                    modal.style.display = "block";
+                    modalImg.src = src;
+                    close.style.display= "block";
+                }
+
+                function closeModal() {
+                    var modal = document.getElementById("myModal");
+                    modal.style.display = "none";                   
+                }
+            </script>
+        </div>
+    </div>
+    <div id="footer">
+        <div id="footer_bg">
+            ABC@126.com
+        </div>
+    </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <button class="close" onclick="closeModal()" style="display: none;">&times;</button>
+  <img class="modal-content" id="img01">
+</div>
+
+</body>
+</html>

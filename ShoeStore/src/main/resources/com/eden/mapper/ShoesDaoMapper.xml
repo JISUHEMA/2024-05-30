@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.eden.dao.ShoesDao">
+
+	<select id="lists" resultType="Shoes">
+		select id,name,price,size,imageUrl from `shoes`
+	</select>
+	
+	<insert id="save" parameterType="Shoes" useGeneratedKeys="true" keyProperty="id">
+		insert into shoes values(#{id},#{name},#{price},#{size},#{imageUrl})
+	</insert>
+	
+	<select id="findById" parameterType="Integer" resultType="Shoes">
+		select id,name,price,size,imageUrl from `shoes`
+		where id=#{id}
+	</select>
+	
+	<update id="update" parameterType="Shoes">
+		update `shoes` set name=#{name},price=#{price},size=#{size},imageUrl=#{imageUrl}
+		where id=#{id}
+	</update>
+	
+	<delete id="delete" parameterType="Integer">
+		delete from `shoes` where id=#{id}
+	</delete>
+	
+	<select id="searchEmp" resultType="Shoes">
+		select id,name,price,size,imageUrl from `shoes`
+		<where>
+			<if test="searchName!=null and searchName!=''">
+				name like concat('%',#{searchName},'%')
+			</if>
+			<if test="lowPrice!=''">
+				and price >= #{lowPrice}
+			</if>
+			<if test="topPrice!=''">
+				and price &lt;= #{topPrice}
+			</if>
+			<if test="dateBegin!=''">
+				and size >= #{dateBegin}
+			</if>
+			<if test="dateEnd!=''">
+				and size  &lt;=#{dateEnd}
+			</if>
+		</where>	
+	</select> 
+
+</mapper>

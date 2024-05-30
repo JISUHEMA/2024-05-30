@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <property name="LOG_PATH" value="./logs" />
+
+    <!-- Console Appender with color coding -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%cyan(%d{yyyy-MM-dd HH:mm:ss}) %highlight(%-5level) [%thread] %blue(%logger{36}) - %msg%n</pattern>
+        </encoder>        
+    </appender>
+
+    <!-- Rolling File Appender -->
+    <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 日志文件的基础名称 -->
+        <file>${LOG_PATH}/app.log</file>
+        
+        <!-- 滚动策略：每天滚动日志文件 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 每天生成新文件的文件名模式 -->
+            <fileNamePattern>${LOG_PATH}/app-%d{yyyy-MM-dd}.log</fileNamePattern>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %level - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Logger configurations -->
+    <root level="info">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="ROLLING" />
+    </root>
+
+    <logger name="com.eden" level="debug">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="ROLLING" />
+    </logger>
+
+</configuration>

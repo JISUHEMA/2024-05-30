@@ -1,0 +1,792 @@
+2024-05-27 14:46:06 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 13452 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-27 14:46:06 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 13452 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-27 14:46:06 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-27 14:46:06 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-27 14:46:06 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-27 14:46:06 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-27 14:46:08 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8888 (http)
+2024-05-27 14:46:08 - o.a.coyote.http11.Http11NioProtocol - INFO - Initializing ProtocolHandler ["http-nio-8888"]
+2024-05-27 14:46:08 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2024-05-27 14:46:08 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-27 14:46:08 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring embedded WebApplicationContext
+2024-05-27 14:46:08 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 1547 ms
+2024-05-27 14:46:09 - o.a.coyote.http11.Http11NioProtocol - INFO - Starting ProtocolHandler ["http-nio-8888"]
+2024-05-27 14:46:09 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8888 (http) with context path '/empshoestore'
+2024-05-27 14:46:09 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 3.263 seconds (process running for 4.473)
+2024-05-27 14:46:09 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 3.263 seconds (process running for 4.473)
+2024-05-27 14:46:41 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-27 14:46:41 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2024-05-27 14:46:41 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 15 ms
+2024-05-27 14:46:41 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:41 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:41 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:41 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:41 - com.eden.controller.UserController - INFO - ユーザー名：,パスワード：
+2024-05-27 14:46:41 - com.eden.controller.UserController - INFO - ユーザー名：,パスワード：
+2024-05-27 14:46:41 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2024-05-27 14:46:42 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d336ab1
+2024-05-27 14:46:42 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: (String)
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: (String)
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 0
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 0
+2024-05-27 14:46:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:42 - com.eden.controller.UserController - INFO - ユーザー名：,パスワード：
+2024-05-27 14:46:42 - com.eden.controller.UserController - INFO - ユーザー名：,パスワード：
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: (String)
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: (String)
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 0
+2024-05-27 14:46:42 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 0
+2024-05-27 14:46:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:47 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:47 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:47 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:47 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:46:47 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 14:46:47 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 14:46:47 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 14:46:47 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 14:46:47 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 14:46:47 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 14:46:47 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 14:46:47 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 14:46:47 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:46:47 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:46:47 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:46:47 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:46:47 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:46:47 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:46:47 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:46:47 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:48:12 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:48:12 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:48:12 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:48:12 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:48:12 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:48:12 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:48:12 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:48:12 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:52:59 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:52:59 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:52:59 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:52:59 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:52:59 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:52:59 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:52:59 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:52:59 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:53:11 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:53:11 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:53:11 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:53:11 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:53:11 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:53:11 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:53:11 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:53:11 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:54:45 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:54:45 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:54:45 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:54:45 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:54:45 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:54:45 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:54:45 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:54:45 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:54:46 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:54:46 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:54:46 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:54:46 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:54:46 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:54:46 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:54:46 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:54:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:54:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:54:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:54:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 14:54:52 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 14:54:52 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 14:54:52 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 14:54:52 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 14:54:52 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 14:54:52 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 14:54:52 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 14:54:52 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 14:54:52 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:54:52 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:56:08 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:56:08 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:58:53 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:58:53 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 14:58:53 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:58:53 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 14:58:53 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:58:53 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 14:58:53 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 14:58:53 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:00:06 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:00:06 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:00:06 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:00:06 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:00:06 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:00:06 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:00:06 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:00:06 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:01:16 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:01:16 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:01:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:01:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:01:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:01:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:01:16 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:01:16 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:01:31 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:01:31 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:01:31 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:01:31 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:01:31 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:01:31 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:01:31 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:01:31 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:03:46 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:03:46 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:03:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:03:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:03:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:03:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:03:46 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:03:46 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:03:55 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:03:55 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:03:55 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:03:55 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:03:55 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:03:55 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:03:55 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:03:55 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:09:54 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:09:54 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:09:54 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:09:54 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:09:54 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:09:54 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:09:54 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:09:54 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:10:24 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:10:24 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:10:24 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:10:24 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:10:29 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:10:29 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:10:29 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:10:29 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:10:29 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 15:10:29 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 15:10:29 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 15:10:29 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 15:10:29 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 15:10:29 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 15:10:29 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 15:10:29 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 15:10:29 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:10:29 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:10:29 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:10:29 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:10:29 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:10:29 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:10:29 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:10:29 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:12:12 - com.eden.controller.ShoesController - INFO - 更新ID：2
+2024-05-27 15:12:12 - com.eden.controller.ShoesController - INFO - 更新ID：2
+2024-05-27 15:12:12 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-27 15:12:12 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-27 15:12:12 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 2(Integer)
+2024-05-27 15:12:12 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 2(Integer)
+2024-05-27 15:12:12 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-27 15:12:12 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-27 15:13:17 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:13:17 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:13:17 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:13:17 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:13:17 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:13:17 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:13:17 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:13:17 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:13:32 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:13:32 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:13:32 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:13:32 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:13:32 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:13:32 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:13:32 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:13:32 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:13:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:13:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:13:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:13:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:13:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:13:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:13:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:13:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:14:11 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:14:11 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:14:11 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:14:11 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:14:11 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:14:11 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:14:11 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:14:11 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:14:11 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:14:11 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:14:11 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:14:11 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:14:46 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:14:46 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:14:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:14:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:14:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:14:46 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:14:46 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:14:46 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:14:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:14:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:14:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:14:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:17:00 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:17:00 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:17:00 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:17:00 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:17:00 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:17:00 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:17:00 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:17:00 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:17:00 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:17:00 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:17:00 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:17:00 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:17:00 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:17:00 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:17:00 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:17:00 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:20 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:19:20 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:19:20 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:19:20 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:19:20 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:19:20 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:19:20 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:19:20 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:19:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:37 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:19:37 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:19:37 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:19:37 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:19:37 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:19:37 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:19:37 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:19:37 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:19:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:46 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:48 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:50 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:50 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:50 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:50 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:50 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：
+2024-05-27 15:19:50 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：
+2024-05-27 15:19:50 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 15:19:50 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 15:19:50 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 15:19:50 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 15:19:50 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 15:19:50 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 15:19:50 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:50 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:50 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:50 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 15:19:55 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 15:19:55 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 15:19:55 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 15:19:55 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 15:19:55 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 15:19:55 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 15:19:55 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 15:19:55 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:19:55 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:19:55 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:19:55 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:19:55 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:19:55 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:19:55 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:19:55 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:19:55 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:07 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:20:07 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:20:07 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:20:07 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:20:07 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:20:07 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:20:07 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:20:07 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:20:07 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:07 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:07 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:07 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:07 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:07 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:07 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:07 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:25 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:20:25 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:20:25 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:20:25 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:20:25 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:20:25 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:20:25 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:20:25 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:20:25 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:25 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:25 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:25 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:25 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:25 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:25 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:20:25 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:26:09 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:26:09 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 15:26:09 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:26:09 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 15:26:09 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:26:09 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 15:26:09 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:26:09 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 15:26:09 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:26:09 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:26:09 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:26:09 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:26:09 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:26:09 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:26:09 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 15:26:09 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:31 - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - INFO - Application shutdown requested.
+2024-05-27 16:48:31 - o.a.coyote.http11.Http11NioProtocol - INFO - Stopping ProtocolHandler ["http-nio-8888"]
+2024-05-27 16:48:31 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2024-05-27 16:48:31 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2024-05-27 16:48:33 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 19352 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-27 16:48:33 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 19352 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-27 16:48:33 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-27 16:48:33 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-27 16:48:33 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-27 16:48:33 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-27 16:48:34 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8888 (http)
+2024-05-27 16:48:34 - o.a.coyote.http11.Http11NioProtocol - INFO - Initializing ProtocolHandler ["http-nio-8888"]
+2024-05-27 16:48:34 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2024-05-27 16:48:34 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-27 16:48:34 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring embedded WebApplicationContext
+2024-05-27 16:48:34 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 933 ms
+2024-05-27 16:48:34 - o.a.coyote.http11.Http11NioProtocol - INFO - Starting ProtocolHandler ["http-nio-8888"]
+2024-05-27 16:48:34 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8888 (http) with context path '/empshoestore'
+2024-05-27 16:48:34 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.818 seconds (process running for 2.43)
+2024-05-27 16:48:34 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.818 seconds (process running for 2.43)
+2024-05-27 16:48:51 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-27 16:48:51 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2024-05-27 16:48:51 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2024-05-27 16:48:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:58 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:58 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:58 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:58 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:58 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:58 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:58 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:48:58 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:03 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:03 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:03 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:03 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:03 - com.eden.controller.UserController - INFO - ユーザー名：,パスワード：
+2024-05-27 16:49:03 - com.eden.controller.UserController - INFO - ユーザー名：,パスワード：
+2024-05-27 16:49:03 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2024-05-27 16:49:03 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@63a9b052
+2024-05-27 16:49:03 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2024-05-27 16:49:03 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 16:49:03 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 16:49:04 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: (String)
+2024-05-27 16:49:04 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: (String)
+2024-05-27 16:49:04 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 0
+2024-05-27 16:49:04 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 0
+2024-05-27 16:49:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:19 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:19 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:19 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:19 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:19 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 16:49:19 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 16:49:19 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 16:49:19 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 16:49:19 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 16:49:19 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 16:49:19 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 16:49:19 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 16:49:19 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:49:19 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:49:19 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:49:19 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:49:19 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:49:19 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:49:19 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:49:19 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:49:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:49:20 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:50:00 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:50:00 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:50:00 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:50:00 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:50:00 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:50:00 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:50:00 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:50:00 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:50:22 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:50:22 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:50:22 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:50:22 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:50:22 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:50:22 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:50:22 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:50:22 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:50:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:50:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:50:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:50:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:50:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:50:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:50:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:50:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:52:37 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:52:37 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:52:37 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:52:37 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:52:37 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:52:37 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:52:37 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:52:37 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:52:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:52:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:52:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:52:37 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:53:39 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:53:39 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:53:39 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:53:39 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:53:39 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:53:39 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:53:39 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:53:39 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:53:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:53:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:53:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:53:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:54:52 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:54:52 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:54:52 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:54:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:54:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:54:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:54:52 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:55:16 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:55:16 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:55:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:55:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:55:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:55:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:55:16 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:55:16 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:55:16 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:55:16 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:55:16 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:55:16 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:55:31 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:55:31 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:55:31 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:55:31 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:55:31 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:55:31 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:55:31 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:55:31 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:55:31 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:55:31 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:55:31 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:55:31 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:57:35 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:57:35 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:57:35 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:57:35 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:57:35 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:57:35 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:57:35 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:57:35 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:57:35 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:57:35 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:57:35 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:57:35 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:59:57 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:59:57 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 16:59:57 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:59:57 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 16:59:57 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:59:57 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 16:59:57 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:59:57 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 16:59:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:59:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:59:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:59:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:59:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:59:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:59:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 16:59:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:32 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 17:02:32 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 17:02:32 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 17:02:32 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 17:02:32 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 17:02:32 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 17:02:32 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 17:02:32 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 17:02:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:32 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:36 - com.eden.controller.ShoesController - INFO - 開始サイズ：,完了サイズ：,最高値段：,最低値段：,名前：
+2024-05-27 17:02:36 - com.eden.controller.ShoesController - INFO - 開始サイズ：,完了サイズ：,最高値段：,最低値段：,名前：
+2024-05-27 17:02:36 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 17:02:36 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 17:02:36 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==> Parameters: 
+2024-05-27 17:02:36 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==> Parameters: 
+2024-05-27 17:02:36 - com.eden.dao.ShoesDao.searchEmp - DEBUG - <==      Total: 4
+2024-05-27 17:02:36 - com.eden.dao.ShoesDao.searchEmp - DEBUG - <==      Total: 4
+2024-05-27 17:02:36 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:36 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:36 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:36 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:42 - com.eden.controller.ShoesController - INFO - 更新ID：2
+2024-05-27 17:02:42 - com.eden.controller.ShoesController - INFO - 更新ID：2
+2024-05-27 17:02:42 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-27 17:02:42 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-27 17:02:42 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 2(Integer)
+2024-05-27 17:02:42 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 2(Integer)
+2024-05-27 17:02:42 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-27 17:02:42 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-27 17:02:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:02:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:42 - com.eden.controller.UserController - INFO - ユーザー名：,パスワード：
+2024-05-27 17:09:42 - com.eden.controller.UserController - INFO - ユーザー名：,パスワード：
+2024-05-27 17:09:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 17:09:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 17:09:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: (String)
+2024-05-27 17:09:42 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: (String)
+2024-05-27 17:09:42 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 0
+2024-05-27 17:09:42 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 0
+2024-05-27 17:09:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:42 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:51 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 17:09:51 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-27 17:09:51 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 17:09:51 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-27 17:09:51 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 17:09:51 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-27 17:09:51 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 17:09:51 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-27 17:09:51 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 17:09:51 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-27 17:09:51 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 17:09:51 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 17:09:51 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 17:09:51 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-27 17:09:51 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 17:09:51 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-27 17:09:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-27 17:09:59 - com.eden.controller.ShoesController - INFO - 開始サイズ：,完了サイズ：,最高値段：,最低値段：,名前：
+2024-05-27 17:09:59 - com.eden.controller.ShoesController - INFO - 開始サイズ：,完了サイズ：,最高値段：,最低値段：,名前：
+2024-05-27 17:09:59 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 17:09:59 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-27 17:09:59 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==> Parameters: 
+2024-05-27 17:09:59 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==> Parameters: 
+2024-05-27 17:09:59 - com.eden.dao.ShoesDao.searchEmp - DEBUG - <==      Total: 4
+2024-05-27 17:09:59 - com.eden.dao.ShoesDao.searchEmp - DEBUG - <==      Total: 4
+2024-05-27 17:10:03 - com.eden.controller.ShoesController - INFO - 開始サイズ：22,完了サイズ：,最高値段：,最低値段：,名前：
+2024-05-27 17:10:03 - com.eden.controller.ShoesController - INFO - 開始サイズ：22,完了サイズ：,最高値段：,最低値段：,名前：
+2024-05-27 17:10:03 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` WHERE size >= ?
+2024-05-27 17:10:03 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` WHERE size >= ?
+2024-05-27 17:10:03 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==> Parameters: 22(String)
+2024-05-27 17:10:03 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==> Parameters: 22(String)
+2024-05-27 17:10:03 - com.eden.dao.ShoesDao.searchEmp - DEBUG - <==      Total: 4
+2024-05-27 17:10:03 - com.eden.dao.ShoesDao.searchEmp - DEBUG - <==      Total: 4
+2024-05-27 17:10:08 - com.eden.controller.ShoesController - INFO - 開始サイズ：,完了サイズ：22,最高値段：,最低値段：,名前：
+2024-05-27 17:10:08 - com.eden.controller.ShoesController - INFO - 開始サイズ：,完了サイズ：22,最高値段：,最低値段：,名前：
+2024-05-27 17:10:08 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` WHERE size <=?
+2024-05-27 17:10:08 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` WHERE size <=?
+2024-05-27 17:10:08 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==> Parameters: 22(String)
+2024-05-27 17:10:08 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==> Parameters: 22(String)
+2024-05-27 17:10:08 - com.eden.dao.ShoesDao.searchEmp - DEBUG - <==      Total: 2
+2024-05-27 17:10:08 - com.eden.dao.ShoesDao.searchEmp - DEBUG - <==      Total: 2
+2024-05-27 17:10:12 - com.eden.controller.ShoesController - INFO - 更新ID：8
+2024-05-27 17:10:12 - com.eden.controller.ShoesController - INFO - 更新ID：8
+2024-05-27 17:10:12 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-27 17:10:12 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-27 17:10:12 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 8(Integer)
+2024-05-27 17:10:12 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 8(Integer)
+2024-05-27 17:10:12 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-27 17:10:12 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-27 17:10:16 - com.eden.controller.ShoesController - INFO - 更新ID：9
+2024-05-27 17:10:16 - com.eden.controller.ShoesController - INFO - 更新ID：9
+2024-05-27 17:10:16 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-27 17:10:16 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-27 17:10:16 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 9(Integer)
+2024-05-27 17:10:16 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 9(Integer)
+2024-05-27 17:10:16 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-27 17:10:16 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1

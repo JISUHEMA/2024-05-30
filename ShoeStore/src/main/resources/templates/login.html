@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログイン | Shoe Store</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
+</head>
+<body>
+<div id="wrap">
+    <div id="header">
+        <h1 id="title">
+            <a href="#">Shoe Store</a>
+        </h1>
+    </div>
+    <div id="content">
+        <h1>ログイン</h1>
+        <h3><span th:text="${param.msg}"></span></h3>
+        <form th:action="@{/user/login}" method="post">
+            <table cellpadding="0" cellspacing="0" border="0" class="form_table">
+                <tr>
+                    <td valign="middle" align="right">ユーザー名:</td>
+                    <td valign="middle" align="left"><input type="text" class="inputgri" name="username" /></td>
+                </tr>
+                <tr>
+                    <td valign="middle" align="right">パスワード:</td>
+                    <td valign="middle" align="left"><input type="password" class="inputgri" name="password" /></td>
+                </tr>
+            </table>
+            <p>
+                <input type="submit" class="button" value="提出 &raquo;" />
+                &nbsp;&nbsp;
+                <a th:href="@{/register}" class="button" >新規</a>
+            </p>
+        </form>
+    </div>
+    <div id="footer">
+        ABC@126.com
+    </div>
+</div>
+</body>
+</html>

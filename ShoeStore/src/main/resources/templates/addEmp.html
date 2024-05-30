@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>add Emp</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/addEmp.css" />
+</head>
+<body>
+    <div id="wrap">
+        <div id="top_content">
+            <div id="header">
+                <div id="rightheader">
+                    <p>
+                        2009/11/20
+                        <br/>
+                        <a th:href="@{/user/logout}">安全退出</a>
+                    </p>
+                </div>
+                <div id="topheader">
+                    <h1 id="title">
+                        <a>Shoe Store</a>
+                    </h1>
+                </div>
+                <div id="navigation">
+                </div>
+            </div>
+            <div id="content">
+                <p id="whereami">
+                </p>
+                <h1>商品追加:</h1>
+                <form th:action="@{/shoes/save}" method="post" enctype="multipart/form-data" onsubmit="return validateForm()">
+                    <table cellpadding="0" cellspacing="0" border="0" class="form_table">
+                        <tr>
+                            <td valign="middle" align="right">商品名:</td>
+                            <td valign="middle" align="left">
+                                <input type="text" class="inputgri" name="name" id="name" />
+                                <span id="namemsg" style="color: red;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="middle" align="right">画像:</td>
+                            <td valign="middle" align="left">
+                                <input type="file" name="img" id="img" />
+                                <span id="imgmsg" style="color: red;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="middle" align="right">価格:</td>
+                            <td valign="middle" align="left">
+                                <input type="text" class="inputgri" name="price" id="price" />
+                                <span id="pricemsg" style="color: red;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="middle" align="right">サイズ:</td>
+                            <td valign="middle" align="left">
+                                <input type="text" class="inputgri" name="size" id="size" />
+                                <span id="sizemsg" style="color: red;"></span>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>
+                        <input type="submit" class="button" value="提出する" />
+                    </p>
+                </form>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer_bg">
+                ABC@126.com
+            </div>
+        </div>
+    </div>
+    <script>
+    function validateForm() {
+        let isValid = true;
+
+        const name = document.querySelector('#name').value;
+        const img = document.querySelector('#img').value;
+        const price = document.querySelector('#price').value;
+        const size = document.querySelector('#size').value;
+
+        const namemsg = document.querySelector('#namemsg');
+        const imgmsg = document.querySelector('#imgmsg');
+        const pricemsg = document.querySelector('#pricemsg');
+        const sizemsg = document.querySelector('#sizemsg');
+
+        namemsg.innerHTML = "";
+        imgmsg.innerHTML = "";
+        pricemsg.innerHTML = "";
+        sizemsg.innerHTML = "";
+
+        if (!name) {
+            namemsg.innerHTML = "商品名を入力してください。";
+            isValid = false;
+        }
+
+        if (!img) {
+            imgmsg.innerHTML = "画像を選んでください。";
+            isValid = false;
+        }
+
+        if (!price) {
+            pricemsg.innerHTML = "価格を入力してください。";
+            isValid = false;
+        }
+
+        if (!size) {
+            sizemsg.innerHTML = "サイズを入力してください。";
+            isValid = false;
+        }
+
+        if (!isValid) {
+            setTimeout(function() {
+                namemsg.innerHTML = "";
+                imgmsg.innerHTML = "";
+                pricemsg.innerHTML = "";
+                sizemsg.innerHTML = "";
+            }, 3000);
+        }
+
+        return isValid;
+    }
+    </script>	
+</body>
+</html>

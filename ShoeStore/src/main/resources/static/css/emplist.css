@@ -1,0 +1,209 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('../img/222.png') no-repeat center center fixed;
+    background-size: cover; /* 确保背景图片覆盖整个页面 */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#wrap {
+    background-color: rgba(255, 255, 255, 0.7); /* 添加透明背景颜色 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 800px;
+    width: 90%;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 80vh; /* 高度调整为视口高度的百分比 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* 确保内容垂直居中 */
+}
+
+#header {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+}
+
+#rightheader {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#rightheader p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#rightheader a {
+    color: white;
+    text-decoration: none;
+}
+
+#title {
+    font-size: 24px;
+    margin: 0;
+}
+
+#title a {
+    color: white;
+    text-decoration: none;
+}
+
+#content {
+    padding: 20px;
+    flex-grow: 1; /* 确保内容区域在盒子中占据更多空间 */
+    overflow-y: auto; /* 如果内容超过高度，显示滚动条 */
+}
+
+#content h1 {
+    color: #333;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.search-bar form {
+    display: inline-block;
+}
+
+.search-bar input[type="text"], .search-bar input[type="number"] {
+    padding: 5px;
+    margin: 0 5px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-bar input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #FF0000;
+}
+
+#footer {
+   
+   
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 0 0 10px 10px;
+    flex-shrink: 0; /* 确保页脚在内容区域之外固定 */
+/* CSS for the image modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modal-content {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+}

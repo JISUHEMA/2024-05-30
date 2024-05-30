@@ -1,0 +1,44 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /empshoestore
+    
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    cache: false
+  datasource:
+    type:  com.zaxxer.hikari.HikariDataSource #spring默认的连接池
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/shoestore?characterEncoding=UTF-8
+    username: root
+    password: 1234
+  web:
+    resources:
+      static-locations: classpath:/static/,file:${file.upload.dir}
+    
+
+mybatis:
+  mapper-locations:  classpath:com/eden/mapper/*.xml
+  type-aliases-package:  com.eden.entity
+  
+file:
+  upload:
+    dir: C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+
+Spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+
+  
+#logging:
+#  level:
+#    root: info
+#    '[com.eden]': debug
+#  file:
+#    name: run.log
+#    path: ./

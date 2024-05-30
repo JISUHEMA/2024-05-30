@@ -1,0 +1,684 @@
+2024-05-29 11:29:08 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 14952 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-29 11:29:08 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 14952 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-29 11:29:08 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-29 11:29:08 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-29 11:29:08 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:29:08 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:29:09 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8888 (http)
+2024-05-29 11:29:09 - o.a.coyote.http11.Http11NioProtocol - INFO - Initializing ProtocolHandler ["http-nio-8888"]
+2024-05-29 11:29:09 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2024-05-29 11:29:09 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-29 11:29:09 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring embedded WebApplicationContext
+2024-05-29 11:29:09 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 1037 ms
+2024-05-29 11:29:10 - o.a.coyote.http11.Http11NioProtocol - INFO - Starting ProtocolHandler ["http-nio-8888"]
+2024-05-29 11:29:10 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8888 (http) with context path '/empshoestore'
+2024-05-29 11:29:10 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.977 seconds (process running for 2.74)
+2024-05-29 11:29:10 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.977 seconds (process running for 2.74)
+2024-05-29 11:29:39 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 11:29:39 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2024-05-29 11:29:39 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:39 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:44 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:44 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:44 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:29:44 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-29 11:30:22 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-29 11:30:22 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2024-05-29 11:30:22 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7de684a8
+2024-05-29 11:30:22 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2024-05-29 11:30:22 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 11:30:22 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 11:30:22 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-29 11:30:22 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-29 11:30:22 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-29 11:30:22 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-29 11:30:22 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:30:22 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:30:22 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:22 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:22 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:30:22 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:30:22 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-29 11:30:22 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:22 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:26 - com.eden.controller.ShoesController - INFO - 削除の商品ID：2
+2024-05-29 11:30:26 - com.eden.controller.ShoesController - INFO - 削除の商品ID：2
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 2(Integer)
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 2(Integer)
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 2(Integer)
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 2(Integer)
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:30:26 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:30:26.849318600,com.eden.controller.ShoesController,delete,[2],redirect:/shoes/lists,14
+2024-05-29 11:30:26 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:30:26.849318600,com.eden.controller.ShoesController,delete,[2],redirect:/shoes/lists,14
+2024-05-29 11:30:26 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:30:26 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 3
+2024-05-29 11:30:26 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 3
+2024-05-29 11:30:28 - com.eden.controller.ShoesController - INFO - 削除の商品ID：3
+2024-05-29 11:30:28 - com.eden.controller.ShoesController - INFO - 削除の商品ID：3
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 3(Integer)
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 3(Integer)
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 3(Integer)
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 3(Integer)
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:30:28 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:30:28.516280600,com.eden.controller.ShoesController,delete,[3],redirect:/shoes/lists,9
+2024-05-29 11:30:28 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:30:28.516280600,com.eden.controller.ShoesController,delete,[3],redirect:/shoes/lists,9
+2024-05-29 11:30:28 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:30:28 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:30:28 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:30:29 - com.eden.controller.ShoesController - INFO - 削除の商品ID：8
+2024-05-29 11:30:29 - com.eden.controller.ShoesController - INFO - 削除の商品ID：8
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 8(Integer)
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 8(Integer)
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 8(Integer)
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 8(Integer)
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:30:29 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:30:29.402343700,com.eden.controller.ShoesController,delete,[8],redirect:/shoes/lists,10
+2024-05-29 11:30:29 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:30:29.402343700,com.eden.controller.ShoesController,delete,[8],redirect:/shoes/lists,10
+2024-05-29 11:30:29 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:30:29 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 1
+2024-05-29 11:30:29 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 1
+2024-05-29 11:30:30 - com.eden.controller.ShoesController - INFO - 削除の商品ID：9
+2024-05-29 11:30:30 - com.eden.controller.ShoesController - INFO - 削除の商品ID：9
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 9(Integer)
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 9(Integer)
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 9(Integer)
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 9(Integer)
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:30:30 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:30:30.119636700,com.eden.controller.ShoesController,delete,[9],redirect:/shoes/lists,9
+2024-05-29 11:30:30 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:30:30.119636700,com.eden.controller.ShoesController,delete,[9],redirect:/shoes/lists,9
+2024-05-29 11:30:30 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:30:30 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 0
+2024-05-29 11:30:30 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 0
+2024-05-29 11:30:31 - com.eden.controller.ShoesController - INFO - 開始サイズ：,完了サイズ：,最高値段：,最低値段：,名前：
+2024-05-29 11:30:31 - com.eden.controller.ShoesController - INFO - 開始サイズ：,完了サイズ：,最高値段：,最低値段：,名前：
+2024-05-29 11:30:31 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:31 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:30:31 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==> Parameters: 
+2024-05-29 11:30:31 - com.eden.dao.ShoesDao.searchEmp - DEBUG - ==> Parameters: 
+2024-05-29 11:30:31 - com.eden.dao.ShoesDao.searchEmp - DEBUG - <==      Total: 0
+2024-05-29 11:30:31 - com.eden.dao.ShoesDao.searchEmp - DEBUG - <==      Total: 0
+2024-05-29 11:30:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:30:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:32:21 - com.eden.controller.ShoesController - DEBUG - 名前：【直販限定商品】ナイキ エア マックス 1 SC,値段：20130.0,サイズ：26
+2024-05-29 11:32:21 - com.eden.controller.ShoesController - DEBUG - 名前：【直販限定商品】ナイキ エア マックス 1 SC,値段：20130.0,サイズ：26
+2024-05-29 11:32:21 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC.png,ファイルのサイズ：102044,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:32:21 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC.png,ファイルのサイズ：102044,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, 【直販限定商品】ナイキ エア マックス 1 SC(String), 20130.0(Double), 26(String), ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC20240529113221126.png(String)
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, 【直販限定商品】ナイキ エア マックス 1 SC(String), 20130.0(Double), 26(String), ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC20240529113221126.png(String)
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:32:21 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:32:21.126171,com.eden.controller.ShoesController,save,[Shoes(id=null, name=【直販限定商品】ナイキ エア マックス 1 SC, price=20130.0, size=26, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5f529112],redirect:/shoes/lists,27
+2024-05-29 11:32:21 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:32:21.126171,com.eden.controller.ShoesController,save,[Shoes(id=null, name=【直販限定商品】ナイキ エア マックス 1 SC, price=20130.0, size=26, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@5f529112],redirect:/shoes/lists,27
+2024-05-29 11:32:21 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:32:21 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 1
+2024-05-29 11:32:21 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 1
+2024-05-29 11:32:33 - com.eden.controller.ShoesController - INFO - 削除の商品ID：10
+2024-05-29 11:32:33 - com.eden.controller.ShoesController - INFO - 削除の商品ID：10
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 10(Integer)
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 10(Integer)
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 10(Integer)
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 10(Integer)
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:32:33 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:32:33.297938100,com.eden.controller.ShoesController,delete,[10],redirect:/shoes/lists,14
+2024-05-29 11:32:33 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:32:33.297938100,com.eden.controller.ShoesController,delete,[10],redirect:/shoes/lists,14
+2024-05-29 11:32:33 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:32:33 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 0
+2024-05-29 11:32:33 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 0
+2024-05-29 11:33:02 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス 1 SC,値段：20130.0,サイズ：26
+2024-05-29 11:33:02 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス 1 SC,値段：20130.0,サイズ：26
+2024-05-29 11:33:02 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC.png,ファイルのサイズ：102044,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:33:02 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC.png,ファイルのサイズ：102044,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス 1 SC(String), 20130.0(Double), 26(String), ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC20240529113302107.png(String)
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス 1 SC(String), 20130.0(Double), 26(String), ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC20240529113302107.png(String)
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:33:02 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:33:02.107305900,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス 1 SC, price=20130.0, size=26, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6c37d46],redirect:/shoes/lists,8
+2024-05-29 11:33:02 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:33:02.107305900,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス 1 SC, price=20130.0, size=26, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@6c37d46],redirect:/shoes/lists,8
+2024-05-29 11:33:02 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:33:02 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 1
+2024-05-29 11:33:02 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 1
+2024-05-29 11:33:25 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス 1 SC,値段：20130.0,サイズ：26
+2024-05-29 11:33:25 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス 1 SC,値段：20130.0,サイズ：26
+2024-05-29 11:33:25 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC.png,ファイルのサイズ：102044,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:33:25 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC.png,ファイルのサイズ：102044,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス 1 SC(String), 20130.0(Double), 26(String), ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC20240529113325405.png(String)
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス 1 SC(String), 20130.0(Double), 26(String), ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC20240529113325405.png(String)
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:33:25 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:33:25.405526600,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス 1 SC, price=20130.0, size=26, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@64da16f3],redirect:/shoes/lists,7
+2024-05-29 11:33:25 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:33:25.405526600,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス 1 SC, price=20130.0, size=26, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@64da16f3],redirect:/shoes/lists,7
+2024-05-29 11:33:25 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:33:25 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:33:25 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:37:56 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - WARN - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2024-05-29 11:37:56 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - WARN - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2024-05-29 11:38:01 - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - INFO - Application shutdown requested.
+2024-05-29 11:38:01 - o.a.coyote.http11.Http11NioProtocol - INFO - Stopping ProtocolHandler ["http-nio-8888"]
+2024-05-29 11:38:01 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2024-05-29 11:38:01 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2024-05-29 11:38:03 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 13720 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-29 11:38:03 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 13720 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-29 11:38:03 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-29 11:38:03 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-29 11:38:03 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:38:03 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:38:04 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8888 (http)
+2024-05-29 11:38:04 - o.a.coyote.http11.Http11NioProtocol - INFO - Initializing ProtocolHandler ["http-nio-8888"]
+2024-05-29 11:38:04 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2024-05-29 11:38:04 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-29 11:38:04 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring embedded WebApplicationContext
+2024-05-29 11:38:04 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 837 ms
+2024-05-29 11:38:05 - o.a.coyote.http11.Http11NioProtocol - INFO - Starting ProtocolHandler ["http-nio-8888"]
+2024-05-29 11:38:05 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8888 (http) with context path '/empshoestore'
+2024-05-29 11:38:05 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.685 seconds (process running for 2.256)
+2024-05-29 11:38:05 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.685 seconds (process running for 2.256)
+2024-05-29 11:38:10 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 11:38:10 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2024-05-29 11:38:10 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 0 ms
+2024-05-29 11:38:10 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - WARN - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2024-05-29 11:38:10 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - WARN - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2024-05-29 11:38:14 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:38:14 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:38:14 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:38:14 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:38:18 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:38:18 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:38:18 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:38:18 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:38:18 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-29 11:38:18 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-29 11:38:18 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2024-05-29 11:38:19 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d8dad8f
+2024-05-29 11:38:19 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2024-05-29 11:38:19 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 11:38:19 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 11:38:19 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-29 11:38:19 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-29 11:38:19 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-29 11:38:19 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-29 11:38:19 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:38:19 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:38:19 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:38:19 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:38:19 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:38:19 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:38:19 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:38:19 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:38:34 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - WARN - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2024-05-29 11:38:34 - o.s.w.s.m.s.DefaultHandlerExceptionResolver - WARN - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2024-05-29 11:41:20 - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - INFO - Application shutdown requested.
+2024-05-29 11:41:20 - o.a.coyote.http11.Http11NioProtocol - INFO - Stopping ProtocolHandler ["http-nio-8888"]
+2024-05-29 11:41:20 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2024-05-29 11:41:21 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2024-05-29 11:41:23 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 18292 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-29 11:41:23 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 18292 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-29 11:41:23 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-29 11:41:23 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-29 11:41:23 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:41:23 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:41:24 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8888 (http)
+2024-05-29 11:41:24 - o.a.coyote.http11.Http11NioProtocol - INFO - Initializing ProtocolHandler ["http-nio-8888"]
+2024-05-29 11:41:24 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2024-05-29 11:41:24 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-29 11:41:24 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring embedded WebApplicationContext
+2024-05-29 11:41:24 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 942 ms
+2024-05-29 11:41:24 - o.a.coyote.http11.Http11NioProtocol - INFO - Starting ProtocolHandler ["http-nio-8888"]
+2024-05-29 11:41:24 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8888 (http) with context path '/empshoestore'
+2024-05-29 11:41:24 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.839 seconds (process running for 2.411)
+2024-05-29 11:41:24 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.839 seconds (process running for 2.411)
+2024-05-29 11:41:31 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 11:41:31 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2024-05-29 11:41:31 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 1 ms
+2024-05-29 11:41:31 - c.e.i.LoginCheckInterceptor - INFO - リクエストのtoken空になる、未登録のメッセージを返します
+2024-05-29 11:41:31 - c.e.i.LoginCheckInterceptor - INFO - リクエストのtoken空になる、未登録のメッセージを返します
+2024-05-29 11:41:31 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:41:31 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:41:31 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:41:31 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:41:36 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:41:36 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:41:36 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:41:36 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:41:36 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-29 11:41:36 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-29 11:41:36 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2024-05-29 11:41:36 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7579aabb
+2024-05-29 11:41:36 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2024-05-29 11:41:36 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 11:41:36 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 11:41:36 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-29 11:41:36 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-29 11:41:36 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-29 11:41:36 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-29 11:41:36 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:41:36 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:41:36 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:41:36 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:41:36 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:41:36 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:41:36 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:41:36 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:41:50 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス 1 SC,値段：20310.0,サイズ：26
+2024-05-29 11:41:50 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス 1 SC,値段：20310.0,サイズ：26
+2024-05-29 11:41:50 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC.png,ファイルのサイズ：1100866,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:41:50 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC.png,ファイルのサイズ：1100866,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス 1 SC(String), 20310.0(Double), 26(String), ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC20240529114150655.png(String)
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス 1 SC(String), 20310.0(Double), 26(String), ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC20240529114150655.png(String)
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:41:50 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:41:50.655005900,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス 1 SC, price=20310.0, size=26, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7ade766d],redirect:/shoes/lists,14
+2024-05-29 11:41:50 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:41:50.655005900,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス 1 SC, price=20310.0, size=26, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@7ade766d],redirect:/shoes/lists,14
+2024-05-29 11:41:50 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:41:50 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 3
+2024-05-29 11:41:50 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 3
+2024-05-29 11:44:38 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス 1 SC,値段：20310.0,サイズ：26
+2024-05-29 11:44:38 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス 1 SC,値段：20310.0,サイズ：26
+2024-05-29 11:44:38 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-プラス-ウィメンズシューズ-P1JLrt.png,ファイルのサイズ：14266,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:44:38 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-プラス-ウィメンズシューズ-P1JLrt.png,ファイルのサイズ：14266,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス 1 SC(String), 20310.0(Double), 26(String), ナイキ-エア-マックス-プラス-ウィメンズシューズ-P1JLrt20240529114438463.png(String)
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス 1 SC(String), 20310.0(Double), 26(String), ナイキ-エア-マックス-プラス-ウィメンズシューズ-P1JLrt20240529114438463.png(String)
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:44:38 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:44:38.463869200,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス 1 SC, price=20310.0, size=26, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2586128d],redirect:/shoes/lists,9
+2024-05-29 11:44:38 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:44:38.463869200,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス 1 SC, price=20310.0, size=26, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2586128d],redirect:/shoes/lists,9
+2024-05-29 11:44:38 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:44:38 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-29 11:44:38 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-29 11:47:04 - c.e.i.LoginCheckInterceptor - INFO - リクエストのtoken空になる、未登録のメッセージを返します
+2024-05-29 11:47:04 - c.e.i.LoginCheckInterceptor - INFO - リクエストのtoken空になる、未登録のメッセージを返します
+2024-05-29 11:47:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:47:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:47:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:47:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:47:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:47:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:47:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:47:33 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:47:33 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-29 11:47:33 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-29 11:47:33 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 11:47:33 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 11:47:33 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-29 11:47:33 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-29 11:47:33 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-29 11:47:33 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-29 11:47:33 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:47:33 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:47:33 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:47:33 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:47:33 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:47:33 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:47:33 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-29 11:47:33 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 4
+2024-05-29 11:47:36 - com.eden.controller.ShoesController - INFO - 削除の商品ID：11
+2024-05-29 11:47:36 - com.eden.controller.ShoesController - INFO - 削除の商品ID：11
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 11(Integer)
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 11(Integer)
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 11(Integer)
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 11(Integer)
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:47:36 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:47:36.380961,com.eden.controller.ShoesController,delete,[11],redirect:/shoes/lists,13
+2024-05-29 11:47:36 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:47:36.380961,com.eden.controller.ShoesController,delete,[11],redirect:/shoes/lists,13
+2024-05-29 11:47:36 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:47:36 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 3
+2024-05-29 11:47:36 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 3
+2024-05-29 11:47:38 - com.eden.controller.ShoesController - INFO - 削除の商品ID：12
+2024-05-29 11:47:38 - com.eden.controller.ShoesController - INFO - 削除の商品ID：12
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 12(Integer)
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 12(Integer)
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 12(Integer)
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 12(Integer)
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:47:38 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:47:38.325445200,com.eden.controller.ShoesController,delete,[12],redirect:/shoes/lists,9
+2024-05-29 11:47:38 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:47:38.325445200,com.eden.controller.ShoesController,delete,[12],redirect:/shoes/lists,9
+2024-05-29 11:47:38 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:47:38 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:47:38 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:47:39 - com.eden.controller.ShoesController - INFO - 削除の商品ID：13
+2024-05-29 11:47:39 - com.eden.controller.ShoesController - INFO - 削除の商品ID：13
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 13(Integer)
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 13(Integer)
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.delete - DEBUG - ==>  Preparing: delete from `shoes` where id=?
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 13(Integer)
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.delete - DEBUG - ==> Parameters: 13(Integer)
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.delete - DEBUG - <==    Updates: 1
+2024-05-29 11:47:39 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:47:39.911154700,com.eden.controller.ShoesController,delete,[13],redirect:/shoes/lists,8
+2024-05-29 11:47:39 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:47:39.911154700,com.eden.controller.ShoesController,delete,[13],redirect:/shoes/lists,8
+2024-05-29 11:47:39 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:47:39 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 1
+2024-05-29 11:47:39 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 1
+2024-05-29 11:48:16 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス 2013,値段：23430.0,サイズ：26.5
+2024-05-29 11:48:16 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス 2013,値段：23430.0,サイズ：26.5
+2024-05-29 11:48:16 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-2013-メンズシューズ-hH4DRq_resized.png,ファイルのサイズ：129712,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:48:16 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-2013-メンズシューズ-hH4DRq_resized.png,ファイルのサイズ：129712,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス 2013(String), 23430.0(Double), 26.5(String), ナイキ-エア-マックス-2013-メンズシューズ-hH4DRq_resized20240529114816217.png(String)
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス 2013(String), 23430.0(Double), 26.5(String), ナイキ-エア-マックス-2013-メンズシューズ-hH4DRq_resized20240529114816217.png(String)
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:48:16 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:48:16.216260400,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス 2013, price=23430.0, size=26.5, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@3ee1b83b],redirect:/shoes/lists,10
+2024-05-29 11:48:16 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:48:16.216260400,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス 2013, price=23430.0, size=26.5, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@3ee1b83b],redirect:/shoes/lists,10
+2024-05-29 11:48:16 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:48:16 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:48:16 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 2
+2024-05-29 11:49:54 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス プラス,値段：4620.0,サイズ：25.5
+2024-05-29 11:49:54 - com.eden.controller.ShoesController - DEBUG - 名前：ナイキ エア マックス プラス,値段：4620.0,サイズ：25.5
+2024-05-29 11:49:54 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC_resized.png,ファイルのサイズ：167281,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:49:54 - com.eden.controller.ShoesController - DEBUG - ファイルの名：ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC_resized.png,ファイルのサイズ：167281,アップロードアドレス：C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\upload
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.save - DEBUG - ==>  Preparing: insert into shoes values(?,?,?,?,?)
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス プラス(String), 4620.0(Double), 25.5(String), ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC_resized20240529114954903.png(String)
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.save - DEBUG - ==> Parameters: null, ナイキ エア マックス プラス(String), 4620.0(Double), 25.5(String), ナイキ-エア-マックス-1-sc-メンズシューズ-lXvCXC_resized20240529114954903.png(String)
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.save - DEBUG - <==    Updates: 1
+2024-05-29 11:49:54 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:49:54.902430500,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス プラス, price=4620.0, size=25.5, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2647630c],redirect:/shoes/lists,9
+2024-05-29 11:49:54 - com.eden.aop.LogAspect - INFO - AOP操作のレコード：1,2024-05-29T11:49:54.902430500,com.eden.controller.ShoesController,save,[Shoes(id=null, name=ナイキ エア マックス プラス, price=4620.0, size=25.5, imageUrl=null), org.springframework.web.multipart.support.StandardMultipartHttpServletRequest$StandardMultipartFile@2647630c],redirect:/shoes/lists,9
+2024-05-29 11:49:54 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:49:54 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 3
+2024-05-29 11:49:54 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 3
+2024-05-29 11:49:59 - com.eden.controller.ShoesController - INFO - 更新ID：14
+2024-05-29 11:49:59 - com.eden.controller.ShoesController - INFO - 更新ID：14
+2024-05-29 11:49:59 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:49:59 - com.eden.dao.ShoesDao.findById - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes` where id=?
+2024-05-29 11:49:59 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 14(Integer)
+2024-05-29 11:49:59 - com.eden.dao.ShoesDao.findById - DEBUG - ==> Parameters: 14(Integer)
+2024-05-29 11:49:59 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:49:59 - com.eden.dao.ShoesDao.findById - DEBUG - <==      Total: 1
+2024-05-29 11:49:59 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:49:59 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:49:59 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:49:59 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 11:50:35 - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - INFO - Application shutdown requested.
+2024-05-29 11:50:35 - o.a.coyote.http11.Http11NioProtocol - INFO - Stopping ProtocolHandler ["http-nio-8888"]
+2024-05-29 11:50:35 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown initiated...
+2024-05-29 11:50:35 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Shutdown completed.
+2024-05-29 11:50:37 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 24380 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-29 11:50:37 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 24380 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-29 11:50:37 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-29 11:50:37 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-29 11:50:37 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:50:37 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 11:50:38 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8888 (http)
+2024-05-29 11:50:38 - o.a.coyote.http11.Http11NioProtocol - INFO - Initializing ProtocolHandler ["http-nio-8888"]
+2024-05-29 11:50:38 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2024-05-29 11:50:38 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-29 11:50:38 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring embedded WebApplicationContext
+2024-05-29 11:50:38 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 872 ms
+2024-05-29 11:50:39 - o.a.coyote.http11.Http11NioProtocol - INFO - Starting ProtocolHandler ["http-nio-8888"]
+2024-05-29 11:50:39 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8888 (http) with context path '/empshoestore'
+2024-05-29 11:50:39 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.751 seconds (process running for 2.334)
+2024-05-29 11:50:39 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.751 seconds (process running for 2.334)
+2024-05-29 13:55:41 - o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - INFO - Application shutdown requested.
+2024-05-29 13:55:41 - o.a.coyote.http11.Http11NioProtocol - INFO - Stopping ProtocolHandler ["http-nio-8888"]
+2024-05-29 13:55:44 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 23200 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-29 13:55:44 - com.eden.ShoeStoreApplication - INFO - Starting ShoeStoreApplication using Java 17.0.10 with PID 23200 (C:\KuGou\eclipaeAA\workspace20240523\ShoeStore\target\classes started by Qq145 in C:\KuGou\eclipaeAA\workspace20240523\ShoeStore)
+2024-05-29 13:55:44 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-29 13:55:44 - com.eden.ShoeStoreApplication - DEBUG - Running with Spring Boot v3.2.5, Spring v6.1.6
+2024-05-29 13:55:44 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 13:55:44 - com.eden.ShoeStoreApplication - INFO - No active profile set, falling back to 1 default profile: "default"
+2024-05-29 13:55:45 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat initialized with port 8888 (http)
+2024-05-29 13:55:45 - o.a.coyote.http11.Http11NioProtocol - INFO - Initializing ProtocolHandler ["http-nio-8888"]
+2024-05-29 13:55:45 - o.a.catalina.core.StandardService - INFO - Starting service [Tomcat]
+2024-05-29 13:55:45 - o.a.catalina.core.StandardEngine - INFO - Starting Servlet engine: [Apache Tomcat/10.1.20]
+2024-05-29 13:55:45 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring embedded WebApplicationContext
+2024-05-29 13:55:45 - o.s.b.w.s.c.ServletWebServerApplicationContext - INFO - Root WebApplicationContext: initialization completed in 900 ms
+2024-05-29 13:55:45 - o.a.coyote.http11.Http11NioProtocol - INFO - Starting ProtocolHandler ["http-nio-8888"]
+2024-05-29 13:55:45 - o.s.b.w.e.tomcat.TomcatWebServer - INFO - Tomcat started on port 8888 (http) with context path '/empshoestore'
+2024-05-29 13:55:45 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.81 seconds (process running for 2.477)
+2024-05-29 13:55:45 - com.eden.ShoeStoreApplication - INFO - Started ShoeStoreApplication in 1.81 seconds (process running for 2.477)
+2024-05-29 13:55:57 - o.a.c.c.C.[.[.[/empshoestore] - INFO - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-29 13:55:57 - o.s.web.servlet.DispatcherServlet - INFO - Initializing Servlet 'dispatcherServlet'
+2024-05-29 13:55:57 - o.s.web.servlet.DispatcherServlet - INFO - Completed initialization in 2 ms
+2024-05-29 13:55:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:55:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:55:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:55:57 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:04 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:04 - com.eden.controller.UserController - INFO - ユーザー名：,パスワード：
+2024-05-29 13:56:04 - com.eden.controller.UserController - INFO - ユーザー名：,パスワード：
+2024-05-29 13:56:04 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Starting...
+2024-05-29 13:56:04 - com.zaxxer.hikari.pool.HikariPool - INFO - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c49df0f
+2024-05-29 13:56:04 - com.zaxxer.hikari.HikariDataSource - INFO - HikariPool-1 - Start completed.
+2024-05-29 13:56:04 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 13:56:04 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 13:56:04 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: (String)
+2024-05-29 13:56:04 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: (String)
+2024-05-29 13:56:05 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 0
+2024-05-29 13:56:05 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 0
+2024-05-29 13:56:05 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:05 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:05 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:05 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:08 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:08 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:08 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:08 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:56:08 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-29 13:56:08 - com.eden.controller.UserController - INFO - ユーザー名：tom,パスワード：123
+2024-05-29 13:56:08 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 13:56:08 - com.eden.dao.UserDao.findByUserName - DEBUG - ==>  Preparing: select id,username,realname,password,gender from USER where username=?
+2024-05-29 13:56:08 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-29 13:56:08 - com.eden.dao.UserDao.findByUserName - DEBUG - ==> Parameters: tom(String)
+2024-05-29 13:56:08 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-29 13:56:08 - com.eden.dao.UserDao.findByUserName - DEBUG - <==      Total: 1
+2024-05-29 13:56:08 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 13:56:08 - com.eden.controller.ShoesController - DEBUG - 全部商品を照会する
+2024-05-29 13:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 13:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - ==>  Preparing: select id,name,price,size,imageUrl from `shoes`
+2024-05-29 13:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 13:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - ==> Parameters: 
+2024-05-29 13:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 3
+2024-05-29 13:56:08 - com.eden.dao.ShoesDao.lists - DEBUG - <==      Total: 3
+2024-05-29 13:57:27 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:27 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:27 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:27 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:40 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 13:57:51 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:24 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:24 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:24 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:24 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:26 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:26 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:26 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:26 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:27 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:27 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:27 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:27 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:30 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:30 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:30 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
+2024-05-29 14:01:30 - c.e.i.LoginCheckInterceptor - INFO - 登録操作、許可します。
